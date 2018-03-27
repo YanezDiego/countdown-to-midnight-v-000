@@ -13,7 +13,7 @@ def countdown_with_sleep (i)
   i = 5
     while i > 0 do
       puts "#{i} SECOND(S)!"
-      runtime.real.to_i >= 5
+      sleep 5
       i -= 1
     end
 
