@@ -9,6 +9,12 @@ def countdown (countdown_output)
   return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep
+def countdown_with_sleep (i)
+  i = 5
+    while i > 0 do
+      puts "#{i} SECOND(S)!"
+      runtime.real.to_i >= 5
+      
+    end
 
 end
